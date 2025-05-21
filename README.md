@@ -44,27 +44,15 @@ Design and implement a relational database schema to manage a Library Management
 
 - `library_db.sql` - SQL file to create the full database schema
 - `ERD.png` - Visual ERD of the schema (optional but recommended)
+- `library_inserts.sql` - Insertions into the tables
+
 
 ---
 
-## 📷 LinkedIn Post
-
-A screenshot or video of the code/ERD was shared on LinkedIn and tagged **Brainwave Matrix Solutions** to showcase project visibility and commitment.
-
-🔗 GitHub Repo: _[link to this repo]_
-
----
-
-## ✍️ Submission Details
-
-- Submitted via: [Google Form](https://forms.gle/54YWzaCYKrxzNZeGA)
-- Task: 1/2 Completed
-- Internship Domain: Database Management
-
----
 
 ## 📌 Author
 
-**Intern:** [Your Name]  
-**GitHub:** [Your GitHub Username]  
-**LinkedIn:** [Your LinkedIn Profile URL]
+**Intern:** Kothapally Keerthana 
+**GitHub:** kothapallykeerthana04
+**LinkedIn:** www.linkedin.com/in/kothapally-keerthana0402
+
