@@ -1,3 +1,5 @@
+--INSERT into AUTHOR--
+
 INSERT INTO Author (name) VALUES ('Alyssa Abbott');
 INSERT INTO Author (name) VALUES ('Stacey Marquez');
 INSERT INTO Author (name) VALUES ('Mario Sims');
@@ -18,6 +20,9 @@ INSERT INTO Author (name) VALUES ('Eileen Brown');
 INSERT INTO Author (name) VALUES ('David Barnett');
 INSERT INTO Author (name) VALUES ('Steven Manning');
 INSERT INTO Author (name) VALUES ('Ernest Romero');
+
+--INSERT into CATEGORY--
+
 INSERT INTO Category (name) VALUES ('Science Fiction');
 INSERT INTO Category (name) VALUES ('Mystery');
 INSERT INTO Category (name) VALUES ('Romance');
@@ -25,6 +30,9 @@ INSERT INTO Category (name) VALUES ('Fantasy');
 INSERT INTO Category (name) VALUES ('Non-fiction');
 INSERT INTO Category (name) VALUES ('Biography');
 INSERT INTO Category (name) VALUES ('History');
+
+--INSERT into BOOK--
+
 INSERT INTO Book (title, isbn, total_copies, available_copies, category_id) VALUES ('Some information.', '5822815959077', 2, 2, 6);
 INSERT INTO Book (title, isbn, total_copies, available_copies, category_id) VALUES ('Others born heavy right.', '3314315710892', 4, 4, 7);
 INSERT INTO Book (title, isbn, total_copies, available_copies, category_id) VALUES ('Particular sister health.', '3062325417996', 4, 1, 5);
@@ -55,6 +63,9 @@ INSERT INTO Book (title, isbn, total_copies, available_copies, category_id) VALU
 INSERT INTO Book (title, isbn, total_copies, available_copies, category_id) VALUES ('Sense over society college.', '6396154570595', 6, 5, 7);
 INSERT INTO Book (title, isbn, total_copies, available_copies, category_id) VALUES ('Black choice activity.', '4458771766725', 2, 1, 4);
 INSERT INTO Book (title, isbn, total_copies, available_copies, category_id) VALUES ('Material mother might offer night.', '8331081898256', 8, 4, 3);
+
+--INSERT into BOOKAUTHOR--
+
 INSERT INTO BookAuthor (book_id, author_id) VALUES (1, 7);
 INSERT INTO BookAuthor (book_id, author_id) VALUES (2, 14);
 INSERT INTO BookAuthor (book_id, author_id) VALUES (3, 18);
@@ -85,6 +96,9 @@ INSERT INTO BookAuthor (book_id, author_id) VALUES (27, 17);
 INSERT INTO BookAuthor (book_id, author_id) VALUES (28, 20);
 INSERT INTO BookAuthor (book_id, author_id) VALUES (29, 17);
 INSERT INTO BookAuthor (book_id, author_id) VALUES (30, 9);
+
+--INSERT into MEMBER--
+
 INSERT INTO Member (name, email, join_date) VALUES ('Jonathan Simpson', 'steven07@carrillo.com', '2025-01-19');
 INSERT INTO Member (name, email, join_date) VALUES ('Jorge Deleon', 'timothygardner@mendoza.com', '2024-07-08');
 INSERT INTO Member (name, email, join_date) VALUES ('Stephanie Smith', 'nicholas38@gibbs.net', '2023-12-13');
@@ -100,11 +114,17 @@ INSERT INTO Member (name, email, join_date) VALUES ('Richard Thompson', 'chorn@y
 INSERT INTO Member (name, email, join_date) VALUES ('Sarah Garcia MD', 'jgiles@owens.com', '2025-03-23');
 INSERT INTO Member (name, email, join_date) VALUES ('Sara Day DDS', 'amanda73@miller-walters.com', '2025-01-09');
 INSERT INTO Member (name, email, join_date) VALUES ('Donna Horton', 'andrewford@williams.com', '2024-06-24');
+
+-- --INSERT into LIBRARIAN--
+
 INSERT INTO Librarian (name, email) VALUES ('Pamela Day', 'robinsonmichael@morgan.com');
 INSERT INTO Librarian (name, email) VALUES ('Holly Anderson', 'choiheather@yahoo.com');
 INSERT INTO Librarian (name, email) VALUES ('John Bradley', 'joseph76@moore-stewart.info');
 INSERT INTO Librarian (name, email) VALUES ('Alan Rose', 'crossmarissa@yahoo.com');
 INSERT INTO Librarian (name, email) VALUES ('Edward Johnston', 'dolson@riley.com');
+
+--INSERT into LOAN--
+
 INSERT INTO Loan (book_id, member_id, librarian_id, loan_date, due_date, return_date) VALUES (22, 3, 5, '2025-01-25', '2025-02-08', '2025-02-12');
 INSERT INTO Loan (book_id, member_id, librarian_id, loan_date, due_date, return_date) VALUES (20, 2, 4, '2024-05-21', '2024-06-04', '2024-06-06');
 INSERT INTO Loan (book_id, member_id, librarian_id, loan_date, due_date, return_date) VALUES (23, 3, 1, '2024-05-25', '2024-06-08', '2024-06-07');
@@ -135,6 +155,9 @@ INSERT INTO Loan (book_id, member_id, librarian_id, loan_date, due_date, return_
 INSERT INTO Loan (book_id, member_id, librarian_id, loan_date, due_date, return_date) VALUES (8, 12, 3, '2024-08-15', '2024-08-29', '2024-08-29');
 INSERT INTO Loan (book_id, member_id, librarian_id, loan_date, due_date, return_date) VALUES (11, 15, 5, '2024-05-27', '2024-06-10', '2024-06-06');
 INSERT INTO Loan (book_id, member_id, librarian_id, loan_date, due_date, return_date) VALUES (5, 10, 3, '2024-12-24', '2025-01-07', '2025-01-09');
+
+--INSERT into FINE--
+
 INSERT INTO Fine (loan_id, amount, paid) VALUES (8, 33.61, FALSE);
 INSERT INTO Fine (loan_id, amount, paid) VALUES (30, 30.35, TRUE);
 INSERT INTO Fine (loan_id, amount, paid) VALUES (9, 4.4, FALSE);
