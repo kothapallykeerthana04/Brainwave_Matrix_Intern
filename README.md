@@ -28,22 +28,20 @@ Design and implement a relational database schema to manage a Library Management
 - `Loan`
 - `Fine`
 
-### ER Diagram:
-![ERD](ERD.png) <!-- Replace with actual ERD image if available -->
 
 ---
 
 ## 🛠️ Tech Stack
-- MySQL (or compatible RDBMS)
+- MySQL
 - GitHub for version control
-- LinkedIn for publishing progress
+
 
 ---
 
 ## 📁 Files
 
 - `library_db.sql` - SQL file to create the full database schema
-- `ERD.png` - Visual ERD of the schema (optional but recommended)
+- `ERD.png` - Visual ERD of the schema
 - `library_inserts.sql` - Insertions into the tables
 
 
